@@ -1,7 +1,7 @@
 ﻿version: '3.8'
 services:
   feedbacks-app:
-    image: feedbacks-app
+    image: web-api-demo
     build:
       context: .
       dockerfile: Dockerfile
