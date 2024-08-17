@@ -1,0 +1,10 @@
+﻿version: '3.8'
+services:
+  feedbacks-app:
+    image: feedbacks-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5101:80'
+      - '7286:443'
