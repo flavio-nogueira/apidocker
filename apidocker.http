@@ -1,0 +1,6 @@
+@apidocker_HostAddress = http://localhost:5195
+
+GET {{apidocker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
